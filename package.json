@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@cucumber/cucumber": "^12.2.0",
+    "@cucumber/cucumber": "^10.9.0",
     "@playwright/test": "^1.56.1",
     "@types/node": "^22.10.7",
     "cucumber-tsflow": "^4.4.4",
