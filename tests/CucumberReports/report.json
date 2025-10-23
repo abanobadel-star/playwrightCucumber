@@ -1,0 +1,115 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-feature-for-sauce-demo;scenario-outline-name:-login-with-valid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 12,
+        "name": "Scenario Outline name: login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 449339799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user open website \"https://www.saucedemo.com/\"",
+            "match": {
+              "location": "tests\\steps\\loginSauce.steps.ts:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1949938698
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enter username \"standard_user\"",
+            "match": {
+              "location": "tests\\steps\\loginSauce.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 67669599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user enter password \"secret_sauce\"",
+            "match": {
+              "location": "tests\\steps\\loginSauce.steps.ts:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46619899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user click on login button",
+            "match": {
+              "location": "tests\\steps\\loginSauce.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 110064900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user should be logged in successfully",
+            "match": {
+              "location": "tests\\steps\\loginSauce.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 34105000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 90805700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-feature-for-sauce-demo",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Login Feature for sauce demo",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "tests\\features\\LoginSauceDemo.feature"
+  }
+]

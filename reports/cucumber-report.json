@@ -1,0 +1,50 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "sample-playwright-test;open-google-and-check-title",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Open Google and check title",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"https://www.google.com\"",
+            "match": {
+              "location": "tests\\step-definitions\\example.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4427129200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "the page title should contain \"Google\"",
+            "match": {
+              "location": "tests\\step-definitions\\example.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609447700
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "sample-playwright-test",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Sample Playwright Test",
+    "tags": [],
+    "uri": "tests\\features\\example.feature"
+  }
+]

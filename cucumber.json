@@ -1,0 +1,14 @@
+{
+  "default": {
+    "paths": ["tests/features/*.feature"],
+      "formatOptions": {
+      "colorsEnabled": true,
+      "snippetInterface": "async-await"
+    },
+    "require": ["tests/steps/*.ts", "tests/hooks/*.ts"],
+    "requireModule": ["ts-node/register"],
+    "parallel": 3,
+    "retry": 1,
+    "format":["html:tests/CucumberReports/report.html", "json:tests/CucumberReports/report.json"]
+  }
+}
